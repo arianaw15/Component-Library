@@ -3,6 +3,7 @@ import { Box } from '../index'
 
 
 interface Props {
+    checked?: boolean;
     type: string;
 }
 
