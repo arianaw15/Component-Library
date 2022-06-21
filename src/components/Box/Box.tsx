@@ -1,9 +1,12 @@
 import React from 'react'
 
-const Box = () => {
+interface Props {
+    children: React.ReactNode;
+}
+const Box: React.FC<Props> = ({children}) => {
     return (
-        <div></div>
+        <div>{children}</div>
     )
 }
 
-export default Box
+export {Box}
