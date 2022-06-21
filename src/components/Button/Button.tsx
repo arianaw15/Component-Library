@@ -16,3 +16,5 @@ const classNames = cx('button', {
         <button className = {classNames} onClick={onClick} >{children}</button>
     )
 }
+
+export {Button}

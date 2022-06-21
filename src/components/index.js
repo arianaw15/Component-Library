@@ -1,2 +1,4 @@
-export { Box as Box } from './Box'
-export { Input as Input } from './Input'
+export { Box } from './Box'
+export { Button } from './Button'
+export { Input } from './Input'
+export { Form } from './Form'
